@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+.env
+
+# Data and model weights
+data/
+results/best_model.pt
+
+# Keep results metadata
+!results/.gitkeep
+!results/metrics.json
+!results/classification_report.txt
+!results/history.json
+!results/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual envs
+venv/
+.venv/
+env/
